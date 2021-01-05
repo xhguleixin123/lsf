@@ -27,6 +27,12 @@
     <ClInclude Include="ClassAnswer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="classExtandExam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassExandAnswer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">

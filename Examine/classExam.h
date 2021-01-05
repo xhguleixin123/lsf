@@ -12,7 +12,21 @@
 	10 ะกร๗ 85 80 78
 */
 
+class Student
+{
+
+};
+
 int main()
 {
-	
+	Student stList[3];
+	stList[0] = Student("102", "Yang", 85, 80, 78);
+	stList[1] = Student(stList[0]);
+	stList[2] = Student();
+	stList[1].SetId("101");
+	for (int i = 0; i < 3; i++)
+	{
+		stList[i].print();
+	}
+	return 0;
 }

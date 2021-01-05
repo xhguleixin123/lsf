@@ -141,6 +141,8 @@
   <ItemGroup>
     <ClInclude Include="ClassAnswer.h" />
     <ClInclude Include="classExam.h" />
+    <ClInclude Include="ClassExandAnswer.h" />
+    <ClInclude Include="classExtandExam.h" />
     <ClInclude Include="functionAnswer.h" />
     <ClInclude Include="functionExam.h" />
   </ItemGroup>

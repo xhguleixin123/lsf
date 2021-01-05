@@ -29,6 +29,11 @@ public:
 		std::cout << Id << " " << name << " " << score1 << " " << score2 << " " << score3 << std::endl;
 	}
 
+	void SetId(std::string id)
+	{
+		Id = id;
+	}
+
 private:
 	std::string Id;
 	std::string name;
@@ -37,6 +42,14 @@ private:
 
 int main()
 {
-	Student sList[3];
-	sList[1] = Student(sList[0]);
+	Student stList[3];
+	stList[0] = Student("102", "Yang", 85, 80, 78);
+	stList[1] = Student(stList[0]);
+	stList[2] = Student();
+	stList[1].SetId("101");
+	for (int i = 0; i < 3; i++)
+	{
+		stList[i].print();
+	}
+	return 0;
 }
