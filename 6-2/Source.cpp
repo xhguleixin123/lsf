@@ -151,16 +151,17 @@ int main()
 {
 	Person p1;
 	Person p2("Jack", Gender::Male, 177, 90);
+	Person* p3 = new Student();
+	Person* p4 = new Student("小明", Gender::Male, 170, 60, Grade::second, 10100);
+	Person* p5 = new Teacher();
+	Person* p6 = new Teacher("张老师", Gender::Female, 165, 55, 10000);
 	p1.printClassName();
 	p2.printInformation();
-	Person* p3 = new Student();
 	p3->printInformation();
-	Person* p4 = new Student("小明", Gender::Male, 170, 60, Grade::second, 10100);
-	p3->printInformation();
-	Person* p5 = new Teacher();
+	p4->printInformation();
 	p5->printClassName();
-	p3->printInformation();
-	Person* p6 = new Teacher("张老师", Gender::Female, 165, 55, 10000);
-	p3->printInformation();
+	p5->printInformation();
+	p6->printInformation();
+	delete p3, p4, p5, p6;
 }
 
