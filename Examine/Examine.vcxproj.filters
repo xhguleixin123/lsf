@@ -21,6 +21,12 @@
     <ClInclude Include="functionAnswer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="classExam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassAnswer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">

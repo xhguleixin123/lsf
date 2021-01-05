@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ClassAnswer.h" />
+    <ClInclude Include="classExam.h" />
     <ClInclude Include="functionAnswer.h" />
     <ClInclude Include="functionExam.h" />
   </ItemGroup>
