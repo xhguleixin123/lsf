@@ -17,23 +17,26 @@ class Student
 public:
 
 	Student()
-	{
-		Id = 0;
-		char* p = name;
-	}
+		: Id("0"), name("null"), score1(0), score2(0), score3(0)
+	{}
 
-	void SetId(int id)
-	{
+	Student(const char* id, const char* n, int s1, int s2, int s3)
+		: Id(id), name(n), score1(s1), score2(s2), score3(s3)
+	{}
 
+	void print()
+	{
+		std::cout << Id << " " << name << " " << score1 << " " << score2 << " " << score3 << std::endl;
 	}
 
 private:
-	int Id;
-	char name[10];
-	int score1, socre2, socre3;
+	std::string Id;
+	std::string name;
+	int score1, score2, score3;
 };
 
 int main()
 {
-
+	Student sList[3];
+	sList[1] = Student(sList[0]);
 }
