@@ -13,7 +13,6 @@ int main(void)
 		{4,5,6},
 		{7,8,9}
 	};
-
 	PrintMatrix((int*)arr, 3, 3);
 	return 0;
 }

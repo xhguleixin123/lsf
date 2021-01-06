@@ -33,6 +33,12 @@
     <ClInclude Include="ClassExandAnswer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="operatorExam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="operatorAnswer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">

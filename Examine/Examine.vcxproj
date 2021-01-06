@@ -145,6 +145,8 @@
     <ClInclude Include="classExtandExam.h" />
     <ClInclude Include="functionAnswer.h" />
     <ClInclude Include="functionExam.h" />
+    <ClInclude Include="operatorAnswer.h" />
+    <ClInclude Include="operatorExam.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
