@@ -1,21 +1,37 @@
-#include <iostream>
 /*
 输入案例
-5
-2
-3
-4
-1
+5 2 4 3 1
 输出
-1 2 3 4 6
+1 2 3 4 5
 */
-
-
-
+#include <iostream>
+using namespace std;
+void sort(int input[])
+{
+	for (int i = 0;i < 5 - 1;i++)
+	{
+		for (int j = 0;j < 5 - 1 - i;j++)
+		{
+			if (input[j] > input[j + 1])
+			{
+				int temp = input[j];
+				input[j] = input[j + 1];
+				input[j + 1] = temp;
+			}
+		}
+	}
+}
 int main()
 {
 	int input[5];
-	// 输入
-	// 排序
-	// 输出
+	for (int i = 0; i < 5; i++)
+	{
+		cin >> input[i];
+	}
+	sort(input);
+	for (int i = 0; i < 5; i++)
+	{
+		cout << input[i] << " ";
+	}
+
 }

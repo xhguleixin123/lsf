@@ -147,6 +147,9 @@
     <ClInclude Include="functionExam.h" />
     <ClInclude Include="operatorAnswer.h" />
     <ClInclude Include="operatorExam.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="PointExam.h" />
+    <ClInclude Include="studentAnswer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />

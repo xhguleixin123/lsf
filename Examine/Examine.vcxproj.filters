@@ -39,6 +39,15 @@
     <ClInclude Include="operatorAnswer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointExam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="studentAnswer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
